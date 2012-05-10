@@ -15,6 +15,8 @@
 		3F493F1E155C0E6A009C176A /* JHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F1D155C0E6A009C176A /* JHAppDelegate.m */; };
 		3F493F21155C0E6A009C176A /* JHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F20155C0E6A009C176A /* JHViewController.m */; };
 		3F493F24155C0E6A009C176A /* JHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493F22155C0E6A009C176A /* JHViewController.xib */; };
+		3F493F2D155C1053009C176A /* JHDataObject_ARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F2C155C1053009C176A /* JHDataObject_ARC.m */; };
+		3F493F30155C1068009C176A /* JHDataObject_NOARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F2F155C1068009C176A /* JHDataObject_NOARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		3F493F0D155C0E6A009C176A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F493F0F155C0E6A009C176A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F493F11155C0E6A009C176A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F493F15155C0E6A009C176A /* ARCExample-Info.plist */ = {isa = PBXFileReference; path = "ARCExample-Info.plist"; sourceTree = "<group>"; };
+		3F493F15155C0E6A009C176A /* ARCExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARCExample-Info.plist"; sourceTree = "<group>"; };
 		3F493F17155C0E6A009C176A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F493F19155C0E6A009C176A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F493F1B155C0E6A009C176A /* ARCExample-Prefix.pch */ = {isa = PBXFileReference; path = "ARCExample-Prefix.pch"; sourceTree = "<group>"; };
-		3F493F1C155C0E6A009C176A /* JHAppDelegate.h */ = {isa = PBXFileReference; path = JHAppDelegate.h; sourceTree = "<group>"; };
+		3F493F1B155C0E6A009C176A /* ARCExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARCExample-Prefix.pch"; sourceTree = "<group>"; };
+		3F493F1C155C0E6A009C176A /* JHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAppDelegate.h; sourceTree = "<group>"; };
 		3F493F1D155C0E6A009C176A /* JHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAppDelegate.m; sourceTree = "<group>"; };
-		3F493F1F155C0E6A009C176A /* JHViewController.h */ = {isa = PBXFileReference; path = JHViewController.h; sourceTree = "<group>"; };
+		3F493F1F155C0E6A009C176A /* JHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHViewController.h; sourceTree = "<group>"; };
 		3F493F20155C0E6A009C176A /* JHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
 		3F493F23155C0E6A009C176A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JHViewController.xib; sourceTree = "<group>"; };
+		3F493F2B155C1053009C176A /* JHDataObject_ARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDataObject_ARC.h; sourceTree = "<group>"; };
+		3F493F2C155C1053009C176A /* JHDataObject_ARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDataObject_ARC.m; sourceTree = "<group>"; };
+		3F493F2E155C1068009C176A /* JHDataObject_NOARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDataObject_NOARC.h; sourceTree = "<group>"; };
+		3F493F2F155C1068009C176A /* JHDataObject_NOARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDataObject_NOARC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		3F493F13155C0E6A009C176A /* ARCExample */ = {
 			isa = PBXGroup;
 			children = (
+				3F493F2A155C102C009C176A /* Model */,
 				3F493F1C155C0E6A009C176A /* JHAppDelegate.h */,
 				3F493F1D155C0E6A009C176A /* JHAppDelegate.m */,
 				3F493F1F155C0E6A009C176A /* JHViewController.h */,
@@ -96,6 +103,17 @@
 				3F493F1B155C0E6A009C176A /* ARCExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F493F2A155C102C009C176A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F493F2B155C1053009C176A /* JHDataObject_ARC.h */,
+				3F493F2C155C1053009C176A /* JHDataObject_ARC.m */,
+				3F493F2E155C1068009C176A /* JHDataObject_NOARC.h */,
+				3F493F2F155C1068009C176A /* JHDataObject_NOARC.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +183,8 @@
 				3F493F1A155C0E6A009C176A /* main.m in Sources */,
 				3F493F1E155C0E6A009C176A /* JHAppDelegate.m in Sources */,
 				3F493F21155C0E6A009C176A /* JHViewController.m in Sources */,
+				3F493F2D155C1053009C176A /* JHDataObject_ARC.m in Sources */,
+				3F493F30155C1068009C176A /* JHDataObject_NOARC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

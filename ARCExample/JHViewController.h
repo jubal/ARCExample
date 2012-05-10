@@ -10,4 +10,11 @@
 
 @interface JHViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *ARCButton;
+@property (weak, nonatomic) IBOutlet UIButton *noARCButton;
+
+
+- (IBAction)testArc:(id)sender;
+- (IBAction)testNoARC:(id)sender;
+
 @end
