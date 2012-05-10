@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F493F0E155C0E6A009C176A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F493F0D155C0E6A009C176A /* UIKit.framework */; };
+		3F493F10155C0E6A009C176A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F493F0F155C0E6A009C176A /* Foundation.framework */; };
+		3F493F12155C0E6A009C176A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F493F11155C0E6A009C176A /* CoreGraphics.framework */; };
+		3F493F18155C0E6A009C176A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F493F16155C0E6A009C176A /* InfoPlist.strings */; };
+		3F493F1A155C0E6A009C176A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F19155C0E6A009C176A /* main.m */; };
+		3F493F1E155C0E6A009C176A /* JHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F1D155C0E6A009C176A /* JHAppDelegate.m */; };
+		3F493F21155C0E6A009C176A /* JHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493F20155C0E6A009C176A /* JHViewController.m */; };
+		3F493F24155C0E6A009C176A /* JHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493F22155C0E6A009C176A /* JHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F493F09155C0E6A009C176A /* ARCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F493F0D155C0E6A009C176A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F493F0F155C0E6A009C176A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F493F11155C0E6A009C176A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F493F15155C0E6A009C176A /* ARCExample-Info.plist */ = {isa = PBXFileReference; path = "ARCExample-Info.plist"; sourceTree = "<group>"; };
+		3F493F17155C0E6A009C176A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F493F19155C0E6A009C176A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F493F1B155C0E6A009C176A /* ARCExample-Prefix.pch */ = {isa = PBXFileReference; path = "ARCExample-Prefix.pch"; sourceTree = "<group>"; };
+		3F493F1C155C0E6A009C176A /* JHAppDelegate.h */ = {isa = PBXFileReference; path = JHAppDelegate.h; sourceTree = "<group>"; };
+		3F493F1D155C0E6A009C176A /* JHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAppDelegate.m; sourceTree = "<group>"; };
+		3F493F1F155C0E6A009C176A /* JHViewController.h */ = {isa = PBXFileReference; path = JHViewController.h; sourceTree = "<group>"; };
+		3F493F20155C0E6A009C176A /* JHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
+		3F493F23155C0E6A009C176A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F493F06155C0E6A009C176A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F493F0E155C0E6A009C176A /* UIKit.framework in Frameworks */,
+				3F493F10155C0E6A009C176A /* Foundation.framework in Frameworks */,
+				3F493F12155C0E6A009C176A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F493EFE155C0E6A009C176A = {
+			isa = PBXGroup;
+			children = (
+				3F493F13155C0E6A009C176A /* ARCExample */,
+				3F493F0C155C0E6A009C176A /* Frameworks */,
+				3F493F0A155C0E6A009C176A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F493F0A155C0E6A009C176A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F493F09155C0E6A009C176A /* ARCExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F493F0C155C0E6A009C176A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F493F0D155C0E6A009C176A /* UIKit.framework */,
+				3F493F0F155C0E6A009C176A /* Foundation.framework */,
+				3F493F11155C0E6A009C176A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F493F13155C0E6A009C176A /* ARCExample */ = {
+			isa = PBXGroup;
+			children = (
+				3F493F1C155C0E6A009C176A /* JHAppDelegate.h */,
+				3F493F1D155C0E6A009C176A /* JHAppDelegate.m */,
+				3F493F1F155C0E6A009C176A /* JHViewController.h */,
+				3F493F20155C0E6A009C176A /* JHViewController.m */,
+				3F493F22155C0E6A009C176A /* JHViewController.xib */,
+				3F493F14155C0E6A009C176A /* Supporting Files */,
+			);
+			path = ARCExample;
+			sourceTree = "<group>";
+		};
+		3F493F14155C0E6A009C176A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F493F15155C0E6A009C176A /* ARCExample-Info.plist */,
+				3F493F16155C0E6A009C176A /* InfoPlist.strings */,
+				3F493F19155C0E6A009C176A /* main.m */,
+				3F493F1B155C0E6A009C176A /* ARCExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F493F08155C0E6A009C176A /* ARCExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F493F27155C0E6A009C176A /* Build configuration list for PBXNativeTarget "ARCExample" */;
+			buildPhases = (
+				3F493F05155C0E6A009C176A /* Sources */,
+				3F493F06155C0E6A009C176A /* Frameworks */,
+				3F493F07155C0E6A009C176A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCExample;
+			productName = ARCExample;
+			productReference = 3F493F09155C0E6A009C176A /* ARCExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F493F00155C0E6A009C176A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JH;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "MarsLight Studio";
+			};
+			buildConfigurationList = 3F493F03155C0E6A009C176A /* Build configuration list for PBXProject "ARCExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F493EFE155C0E6A009C176A;
+			productRefGroup = 3F493F0A155C0E6A009C176A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F493F08155C0E6A009C176A /* ARCExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F493F07155C0E6A009C176A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F493F18155C0E6A009C176A /* InfoPlist.strings in Resources */,
+				3F493F24155C0E6A009C176A /* JHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F493F05155C0E6A009C176A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F493F1A155C0E6A009C176A /* main.m in Sources */,
+				3F493F1E155C0E6A009C176A /* JHAppDelegate.m in Sources */,
+				3F493F21155C0E6A009C176A /* JHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F493F16155C0E6A009C176A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F493F17155C0E6A009C176A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F493F22155C0E6A009C176A /* JHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F493F23155C0E6A009C176A /* en */,
+			);
+			name = JHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F493F25155C0E6A009C176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F493F26155C0E6A009C176A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F493F28155C0E6A009C176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCExample/ARCExample-Prefix.pch";
+				INFOPLIST_FILE = "ARCExample/ARCExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F493F29155C0E6A009C176A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCExample/ARCExample-Prefix.pch";
+				INFOPLIST_FILE = "ARCExample/ARCExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F493F03155C0E6A009C176A /* Build configuration list for PBXProject "ARCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F493F25155C0E6A009C176A /* Debug */,
+				3F493F26155C0E6A009C176A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F493F27155C0E6A009C176A /* Build configuration list for PBXNativeTarget "ARCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F493F28155C0E6A009C176A /* Debug */,
+				3F493F29155C0E6A009C176A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F493F00155C0E6A009C176A /* Project object */;
+}
